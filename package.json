@@ -1,43 +1,42 @@
 {
-    "name": "use-abort-request",
-    "version": "1.0.0",
-    "description": "Create special effect using The AbortController interface Allows us to abort one fetch requests as and when desired for instance when the component unmount",
-    "main": "src/index.js",
-    "scripts": {
-        "build": "tsc --project tsconfig.json --noEmit && esbuild src/app.tsx --bundle --outfile=dist/app.js",
-        "format": "prettier --write '**/*.ts'",
-        "format-check": "prettier --check '**/*.ts'",
-        "lint": "eslint src/**/*.ts"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/younesBarhouni/use-abort-request.git"
-    },
-    "author": "Younes Barhouni <barhouni.younes@gmail.com>",
-    "license": "MIT",
-    "keywords": [
-        "github",
-        "workflow",
-        "actions",
-        "repository",
-        "emit"
-    ],
-    "bugs": {
-        "url": "https://github.com/younesBarhouni/use-abort-request/issues"
-    },
-    "homepage": "https://github.com/younesBarhouni/use-abort-request#readme",
-    "dependencies": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    },
-    "devDependencies": {
-        "@types/react": "18.0.14",
-        "@typescript-eslint/parser": "^5.29.0",
-        "esbuild": "^0.15.0",
-        "eslint": "^8.18.0",
-        "eslint-plugin-github": "^4.3.6",
-        "prettier": "^2.7.1",
-        "typescript": "^4.7.4"
-    },
-    "packageManager": "yarn@3.2.2"
+  "name": "use-abort-request",
+  "version": "1.0.0",
+  "description": "Create special effect using The AbortController interface Allows us to abort one fetch requests as and when desired for instance when the component unmount",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json --noEmit && esbuild src/app.tsx --bundle --outfile=dist/app.js",
+    "format": "prettier --write '**/*.ts'",
+    "format-check": "prettier --check '**/*.ts'",
+    "lint": "eslint src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/younesBarhouni/use-abort-request.git"
+  },
+  "author": "Younes Barhouni <barhouni.younes@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "workflow",
+    "actions",
+    "repository",
+    "emit"
+  ],
+  "bugs": {
+    "url": "https://github.com/younesBarhouni/use-abort-request/issues"
+  },
+  "homepage": "https://github.com/younesBarhouni/use-abort-request#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.14",
+    "@typescript-eslint/parser": "^5.29.0",
+    "esbuild": "^0.15.0",
+    "eslint": "^8.18.0",
+    "eslint-plugin-github": "^4.3.6",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
 }

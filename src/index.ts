@@ -13,7 +13,7 @@ const useAbortRequestCallback = (): () => AbortSignal => {
   // retrieve the AbortController
   const getAbortController: () => AbortController = useCallback(() => {
     if (!abortControllerRef.current) {
-      console.log("creating new AbortController (useCallback)");
+      console.log("Creating new AbortController (useCallback)");
       abortControllerRef.current = new AbortController();
     }
     return abortControllerRef.current;
@@ -41,7 +41,7 @@ const useAbortRequestCallback = (): () => AbortSignal => {
 const useAbortRequestMemo = (): AbortSignal => {
   // memoize the AbortController to avoid re-creating it
   const abortController: AbortController = useMemo(() => {
-    console.log("creating new AbortController (useMemo)");
+    console.log("Creating new AbortController (useMemo)");
     return new AbortController();
   }, []);
 
